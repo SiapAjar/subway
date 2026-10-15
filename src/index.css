@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* Character Reward Sparkle & Glow Animations */
+@keyframes sparkle-burst {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.2) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translate(calc(var(--tx) * 0.4), calc(var(--ty) * 0.4)) scale(1.25) rotate(60deg);
+  }
+  70% {
+    opacity: 0.95;
+    transform: translate(calc(var(--tx) * 0.85), calc(var(--ty) * 0.85)) scale(1) rotate(140deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(0.1) rotate(220deg);
+  }
+}
+
+@keyframes aura-expand-fade {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.4);
+  }
+  25% {
+    opacity: 0.95;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  70% {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(1.35);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.65);
+  }
+}
+
+@keyframes aura-spin-glow {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.85);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.15);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(0.95);
+  }
+}
+
+@keyframes float-reward-text {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 15px) scale(0.65);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(-50%, -18px) scale(1.2);
+  }
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -46px) scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -75px) scale(0.85);
+  }
+}
+
+@keyframes vignette-reward-flash {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}

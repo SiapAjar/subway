@@ -1,0 +1,6 @@
+{
+  "name": "Zoo Runner 3D - Jungle Safari Subway Edukasi",
+  "description": "Game endless runner 3D interaktif karakter hewan di hutan rimba tropis dengan mode individu dan battle split-screen, kuis edukasi acak terintegrasi Google Spreadsheet guru, dan lapor nilai via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
